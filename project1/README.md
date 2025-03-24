@@ -1,9 +1,9 @@
 # Deploy user microservice to an AWS EC2 instance
-- Prerequisites
-- Ressources to be created
-- Post creation script
-- How to deploy
-- Tests after deployment
+- [Prerequisites](#Prerequisites)
+- [Ressources to be created](#Ressources-to-be-created)
+- [Post creation script](#Post-creation-script)
+- [How to deploy](#How-to-deploy)
+- [Tests after deployment](#Tests-after-deployment)
 
 ## Prerequisites
 - You need Terraform and AWS CLI installed in addition to access keys needed for Terraform to access AWS : check [the prerequisites](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build#prerequisites)
