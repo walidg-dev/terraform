@@ -21,7 +21,7 @@ The ressources that will be created are defined in main.tf :
 2. Security group :
 3. Ingress rule : listen on port 8081 from anywhere (exposed for the microservice)
 4. Ingress rule : listen on port 5432 from anywhere (exposed for postgresql)
-5. Ingress rule : listen on port 22(ssh) from your ip adress
+5. Ingress rule : listen on port 22 (ssh) from your ip address
 6. Egress rule : free access to anywhere
 
 
