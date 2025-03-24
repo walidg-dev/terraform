@@ -6,14 +6,14 @@
 - [Tests after deployment](#Tests-after-deployment)
 
 ## Prerequisites
-- You need Terraform and AWS CLI installed in addition to access keys needed for Terraform to access AWS : check [the prerequisites](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build#prerequisites)
-- One way to create access keys is
+- You need Terraform and AWS CLI installed : check [the prerequisites](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build#prerequisites)
+- In order to access AWS, Terraform needs IAM access keys : one way to create them -->
     - From the AWS Console, go to IAM, 
     - create a group that has EC2FullAccess policy
     - create a user
     - assign the created user to thee newly created group
     - finally create access keys for that user and save them in a safe place
-- Install postman or an other tool to make http calls
+- Install postman or any other tool to make http calls.
 
 ## Ressources to be created
 The ressources that will be created are defined in main.tf :
